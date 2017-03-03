@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		763AAB891E6960CE00EF3A7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 763AAB881E6960CE00EF3A7F /* main.m */; };
+		763AAB8C1E6960CE00EF3A7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 763AAB8B1E6960CE00EF3A7F /* AppDelegate.m */; };
+		763AAB8F1E6960CE00EF3A7F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 763AAB8E1E6960CE00EF3A7F /* ViewController.m */; };
+		763AAB921E6960CE00EF3A7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 763AAB901E6960CE00EF3A7F /* Main.storyboard */; };
+		763AAB941E6960CE00EF3A7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 763AAB931E6960CE00EF3A7F /* Assets.xcassets */; };
+		763AAB971E6960CE00EF3A7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 763AAB951E6960CE00EF3A7F /* LaunchScreen.storyboard */; };
+		763AABA21E6960CE00EF3A7F /* MementoPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 763AABA11E6960CE00EF3A7F /* MementoPatternTests.m */; };
+		763AABAD1E6960CE00EF3A7F /* MementoPatternUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 763AABAC1E6960CE00EF3A7F /* MementoPatternUITests.m */; };
+		763AABBC1E69613B00EF3A7F /* FastCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 763AABBB1E69613B00EF3A7F /* FastCoder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		763AABBF1E6961A700EF3A7F /* MementoCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 763AABBE1E6961A700EF3A7F /* MementoCenter.m */; };
+		763AABC31E6967EF00EF3A7F /* NSObject+MementoCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 763AABC21E6967EF00EF3A7F /* NSObject+MementoCenter.m */; };
+		763AABC61E696A0200EF3A7F /* DemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 763AABC51E696A0200EF3A7F /* DemoView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		763AAB9E1E6960CE00EF3A7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 763AAB7C1E6960CE00EF3A7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 763AAB831E6960CE00EF3A7F;
+			remoteInfo = MementoPattern;
+		};
+		763AABA91E6960CE00EF3A7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 763AAB7C1E6960CE00EF3A7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 763AAB831E6960CE00EF3A7F;
+			remoteInfo = MementoPattern;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		763AAB841E6960CE00EF3A7F /* MementoPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MementoPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		763AAB881E6960CE00EF3A7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		763AAB8A1E6960CE00EF3A7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		763AAB8B1E6960CE00EF3A7F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		763AAB8D1E6960CE00EF3A7F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		763AAB8E1E6960CE00EF3A7F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		763AAB911E6960CE00EF3A7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		763AAB931E6960CE00EF3A7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		763AAB961E6960CE00EF3A7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		763AAB981E6960CE00EF3A7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		763AAB9D1E6960CE00EF3A7F /* MementoPatternTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MementoPatternTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		763AABA11E6960CE00EF3A7F /* MementoPatternTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MementoPatternTests.m; sourceTree = "<group>"; };
+		763AABA31E6960CE00EF3A7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		763AABA81E6960CE00EF3A7F /* MementoPatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MementoPatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		763AABAC1E6960CE00EF3A7F /* MementoPatternUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MementoPatternUITests.m; sourceTree = "<group>"; };
+		763AABAE1E6960CE00EF3A7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		763AABBA1E69613B00EF3A7F /* FastCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FastCoder.h; path = MementoPattern/FastCoder.h; sourceTree = SOURCE_ROOT; };
+		763AABBB1E69613B00EF3A7F /* FastCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FastCoder.m; path = MementoPattern/FastCoder.m; sourceTree = SOURCE_ROOT; };
+		763AABBD1E6961A700EF3A7F /* MementoCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MementoCenter.h; path = MementoPattern/MementoCenter.h; sourceTree = SOURCE_ROOT; };
+		763AABBE1E6961A700EF3A7F /* MementoCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MementoCenter.m; path = MementoPattern/MementoCenter.m; sourceTree = SOURCE_ROOT; };
+		763AABC01E6961FA00EF3A7F /* MementoCenterPotocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MementoCenterPotocol.h; path = MementoPattern/MementoCenterPotocol.h; sourceTree = SOURCE_ROOT; };
+		763AABC11E6967EF00EF3A7F /* NSObject+MementoCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+MementoCenter.h"; path = "../NSObject+MementoCenter.h"; sourceTree = "<group>"; };
+		763AABC21E6967EF00EF3A7F /* NSObject+MementoCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MementoCenter.m"; path = "../NSObject+MementoCenter.m"; sourceTree = "<group>"; };
+		763AABC41E696A0200EF3A7F /* DemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoView.h; sourceTree = "<group>"; };
+		763AABC51E696A0200EF3A7F /* DemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		763AAB811E6960CE00EF3A7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		763AAB9A1E6960CE00EF3A7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		763AABA51E6960CE00EF3A7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		763AAB7B1E6960CE00EF3A7F = {
+			isa = PBXGroup;
+			children = (
+				763AAB861E6960CE00EF3A7F /* MementoPattern */,
+				763AABA01E6960CE00EF3A7F /* MementoPatternTests */,
+				763AABAB1E6960CE00EF3A7F /* MementoPatternUITests */,
+				763AAB851E6960CE00EF3A7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		763AAB851E6960CE00EF3A7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				763AAB841E6960CE00EF3A7F /* MementoPattern.app */,
+				763AAB9D1E6960CE00EF3A7F /* MementoPatternTests.xctest */,
+				763AABA81E6960CE00EF3A7F /* MementoPatternUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		763AAB861E6960CE00EF3A7F /* MementoPattern */ = {
+			isa = PBXGroup;
+			children = (
+				763AAB8A1E6960CE00EF3A7F /* AppDelegate.h */,
+				763AAB8B1E6960CE00EF3A7F /* AppDelegate.m */,
+				763AAB8D1E6960CE00EF3A7F /* ViewController.h */,
+				763AAB8E1E6960CE00EF3A7F /* ViewController.m */,
+				763AABC41E696A0200EF3A7F /* DemoView.h */,
+				763AABC51E696A0200EF3A7F /* DemoView.m */,
+				763AABC81E696B0000EF3A7F /* FastCoder */,
+				763AABC71E696AC800EF3A7F /* MementoCenter */,
+				763AAB901E6960CE00EF3A7F /* Main.storyboard */,
+				763AAB931E6960CE00EF3A7F /* Assets.xcassets */,
+				763AAB951E6960CE00EF3A7F /* LaunchScreen.storyboard */,
+				763AAB981E6960CE00EF3A7F /* Info.plist */,
+				763AAB871E6960CE00EF3A7F /* Supporting Files */,
+			);
+			path = MementoPattern;
+			sourceTree = "<group>";
+		};
+		763AAB871E6960CE00EF3A7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				763AAB881E6960CE00EF3A7F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		763AABA01E6960CE00EF3A7F /* MementoPatternTests */ = {
+			isa = PBXGroup;
+			children = (
+				763AABA11E6960CE00EF3A7F /* MementoPatternTests.m */,
+				763AABA31E6960CE00EF3A7F /* Info.plist */,
+			);
+			path = MementoPatternTests;
+			sourceTree = "<group>";
+		};
+		763AABAB1E6960CE00EF3A7F /* MementoPatternUITests */ = {
+			isa = PBXGroup;
+			children = (
+				763AABAC1E6960CE00EF3A7F /* MementoPatternUITests.m */,
+				763AABAE1E6960CE00EF3A7F /* Info.plist */,
+			);
+			path = MementoPatternUITests;
+			sourceTree = "<group>";
+		};
+		763AABC71E696AC800EF3A7F /* MementoCenter */ = {
+			isa = PBXGroup;
+			children = (
+				763AABC01E6961FA00EF3A7F /* MementoCenterPotocol.h */,
+				763AABBD1E6961A700EF3A7F /* MementoCenter.h */,
+				763AABBE1E6961A700EF3A7F /* MementoCenter.m */,
+				763AABC11E6967EF00EF3A7F /* NSObject+MementoCenter.h */,
+				763AABC21E6967EF00EF3A7F /* NSObject+MementoCenter.m */,
+			);
+			path = MementoCenter;
+			sourceTree = "<group>";
+		};
+		763AABC81E696B0000EF3A7F /* FastCoder */ = {
+			isa = PBXGroup;
+			children = (
+				763AABBA1E69613B00EF3A7F /* FastCoder.h */,
+				763AABBB1E69613B00EF3A7F /* FastCoder.m */,
+			);
+			path = FastCoder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		763AAB831E6960CE00EF3A7F /* MementoPattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 763AABB11E6960CE00EF3A7F /* Build configuration list for PBXNativeTarget "MementoPattern" */;
+			buildPhases = (
+				763AAB801E6960CE00EF3A7F /* Sources */,
+				763AAB811E6960CE00EF3A7F /* Frameworks */,
+				763AAB821E6960CE00EF3A7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MementoPattern;
+			productName = MementoPattern;
+			productReference = 763AAB841E6960CE00EF3A7F /* MementoPattern.app */;
+			productType = "com.apple.product-type.application";
+		};
+		763AAB9C1E6960CE00EF3A7F /* MementoPatternTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 763AABB41E6960CE00EF3A7F /* Build configuration list for PBXNativeTarget "MementoPatternTests" */;
+			buildPhases = (
+				763AAB991E6960CE00EF3A7F /* Sources */,
+				763AAB9A1E6960CE00EF3A7F /* Frameworks */,
+				763AAB9B1E6960CE00EF3A7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				763AAB9F1E6960CE00EF3A7F /* PBXTargetDependency */,
+			);
+			name = MementoPatternTests;
+			productName = MementoPatternTests;
+			productReference = 763AAB9D1E6960CE00EF3A7F /* MementoPatternTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		763AABA71E6960CE00EF3A7F /* MementoPatternUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 763AABB71E6960CE00EF3A7F /* Build configuration list for PBXNativeTarget "MementoPatternUITests" */;
+			buildPhases = (
+				763AABA41E6960CE00EF3A7F /* Sources */,
+				763AABA51E6960CE00EF3A7F /* Frameworks */,
+				763AABA61E6960CE00EF3A7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				763AABAA1E6960CE00EF3A7F /* PBXTargetDependency */,
+			);
+			name = MementoPatternUITests;
+			productName = MementoPatternUITests;
+			productReference = 763AABA81E6960CE00EF3A7F /* MementoPatternUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		763AAB7C1E6960CE00EF3A7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = wupeng;
+				TargetAttributes = {
+					763AAB831E6960CE00EF3A7F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					763AAB9C1E6960CE00EF3A7F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 763AAB831E6960CE00EF3A7F;
+					};
+					763AABA71E6960CE00EF3A7F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 763AAB831E6960CE00EF3A7F;
+					};
+				};
+			};
+			buildConfigurationList = 763AAB7F1E6960CE00EF3A7F /* Build configuration list for PBXProject "MementoPattern" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 763AAB7B1E6960CE00EF3A7F;
+			productRefGroup = 763AAB851E6960CE00EF3A7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				763AAB831E6960CE00EF3A7F /* MementoPattern */,
+				763AAB9C1E6960CE00EF3A7F /* MementoPatternTests */,
+				763AABA71E6960CE00EF3A7F /* MementoPatternUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		763AAB821E6960CE00EF3A7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				763AAB971E6960CE00EF3A7F /* LaunchScreen.storyboard in Resources */,
+				763AAB941E6960CE00EF3A7F /* Assets.xcassets in Resources */,
+				763AAB921E6960CE00EF3A7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		763AAB9B1E6960CE00EF3A7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		763AABA61E6960CE00EF3A7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		763AAB801E6960CE00EF3A7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				763AAB8F1E6960CE00EF3A7F /* ViewController.m in Sources */,
+				763AABC61E696A0200EF3A7F /* DemoView.m in Sources */,
+				763AABBC1E69613B00EF3A7F /* FastCoder.m in Sources */,
+				763AAB8C1E6960CE00EF3A7F /* AppDelegate.m in Sources */,
+				763AABBF1E6961A700EF3A7F /* MementoCenter.m in Sources */,
+				763AABC31E6967EF00EF3A7F /* NSObject+MementoCenter.m in Sources */,
+				763AAB891E6960CE00EF3A7F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		763AAB991E6960CE00EF3A7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				763AABA21E6960CE00EF3A7F /* MementoPatternTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		763AABA41E6960CE00EF3A7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				763AABAD1E6960CE00EF3A7F /* MementoPatternUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		763AAB9F1E6960CE00EF3A7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 763AAB831E6960CE00EF3A7F /* MementoPattern */;
+			targetProxy = 763AAB9E1E6960CE00EF3A7F /* PBXContainerItemProxy */;
+		};
+		763AABAA1E6960CE00EF3A7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 763AAB831E6960CE00EF3A7F /* MementoPattern */;
+			targetProxy = 763AABA91E6960CE00EF3A7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		763AAB901E6960CE00EF3A7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				763AAB911E6960CE00EF3A7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		763AAB951E6960CE00EF3A7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				763AAB961E6960CE00EF3A7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		763AABAF1E6960CE00EF3A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		763AABB01E6960CE00EF3A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		763AABB21E6960CE00EF3A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MementoPattern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wp.MementoPattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		763AABB31E6960CE00EF3A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MementoPattern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wp.MementoPattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		763AABB51E6960CE00EF3A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MementoPatternTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wp.MementoPatternTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MementoPattern.app/MementoPattern";
+			};
+			name = Debug;
+		};
+		763AABB61E6960CE00EF3A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MementoPatternTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wp.MementoPatternTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MementoPattern.app/MementoPattern";
+			};
+			name = Release;
+		};
+		763AABB81E6960CE00EF3A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MementoPatternUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wp.MementoPatternUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MementoPattern;
+			};
+			name = Debug;
+		};
+		763AABB91E6960CE00EF3A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MementoPatternUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wp.MementoPatternUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MementoPattern;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		763AAB7F1E6960CE00EF3A7F /* Build configuration list for PBXProject "MementoPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				763AABAF1E6960CE00EF3A7F /* Debug */,
+				763AABB01E6960CE00EF3A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		763AABB11E6960CE00EF3A7F /* Build configuration list for PBXNativeTarget "MementoPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				763AABB21E6960CE00EF3A7F /* Debug */,
+				763AABB31E6960CE00EF3A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		763AABB41E6960CE00EF3A7F /* Build configuration list for PBXNativeTarget "MementoPatternTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				763AABB51E6960CE00EF3A7F /* Debug */,
+				763AABB61E6960CE00EF3A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		763AABB71E6960CE00EF3A7F /* Build configuration list for PBXNativeTarget "MementoPatternUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				763AABB81E6960CE00EF3A7F /* Debug */,
+				763AABB91E6960CE00EF3A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 763AAB7C1E6960CE00EF3A7F /* Project object */;
+}
