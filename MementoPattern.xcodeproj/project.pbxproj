@@ -17,8 +17,8 @@
 		763AABAD1E6960CE00EF3A7F /* MementoPatternUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 763AABAC1E6960CE00EF3A7F /* MementoPatternUITests.m */; };
 		763AABBC1E69613B00EF3A7F /* FastCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 763AABBB1E69613B00EF3A7F /* FastCoder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		763AABBF1E6961A700EF3A7F /* MementoCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 763AABBE1E6961A700EF3A7F /* MementoCenter.m */; };
-		763AABC31E6967EF00EF3A7F /* NSObject+MementoCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 763AABC21E6967EF00EF3A7F /* NSObject+MementoCenter.m */; };
 		763AABC61E696A0200EF3A7F /* DemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 763AABC51E696A0200EF3A7F /* DemoView.m */; };
+		76A24A51212F22700034EF14 /* NSObject+MementoCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A24A4F212F22700034EF14 /* NSObject+MementoCenter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,10 +60,10 @@
 		763AABBD1E6961A700EF3A7F /* MementoCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MementoCenter.h; path = MementoPattern/MementoCenter.h; sourceTree = SOURCE_ROOT; };
 		763AABBE1E6961A700EF3A7F /* MementoCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MementoCenter.m; path = MementoPattern/MementoCenter.m; sourceTree = SOURCE_ROOT; };
 		763AABC01E6961FA00EF3A7F /* MementoCenterPotocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MementoCenterPotocol.h; path = MementoPattern/MementoCenterPotocol.h; sourceTree = SOURCE_ROOT; };
-		763AABC11E6967EF00EF3A7F /* NSObject+MementoCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+MementoCenter.h"; path = "../NSObject+MementoCenter.h"; sourceTree = "<group>"; };
-		763AABC21E6967EF00EF3A7F /* NSObject+MementoCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MementoCenter.m"; path = "../NSObject+MementoCenter.m"; sourceTree = "<group>"; };
 		763AABC41E696A0200EF3A7F /* DemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoView.h; sourceTree = "<group>"; };
 		763AABC51E696A0200EF3A7F /* DemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoView.m; sourceTree = "<group>"; };
+		76A24A4F212F22700034EF14 /* NSObject+MementoCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MementoCenter.m"; path = "MementoPattern/NSObject+MementoCenter.m"; sourceTree = SOURCE_ROOT; };
+		76A24A50212F22700034EF14 /* NSObject+MementoCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+MementoCenter.h"; path = "MementoPattern/NSObject+MementoCenter.h"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,8 +163,8 @@
 				763AABC01E6961FA00EF3A7F /* MementoCenterPotocol.h */,
 				763AABBD1E6961A700EF3A7F /* MementoCenter.h */,
 				763AABBE1E6961A700EF3A7F /* MementoCenter.m */,
-				763AABC11E6967EF00EF3A7F /* NSObject+MementoCenter.h */,
-				763AABC21E6967EF00EF3A7F /* NSObject+MementoCenter.m */,
+				76A24A50212F22700034EF14 /* NSObject+MementoCenter.h */,
+				76A24A4F212F22700034EF14 /* NSObject+MementoCenter.m */,
 			);
 			path = MementoCenter;
 			sourceTree = "<group>";
@@ -316,8 +316,8 @@
 				763AABBC1E69613B00EF3A7F /* FastCoder.m in Sources */,
 				763AAB8C1E6960CE00EF3A7F /* AppDelegate.m in Sources */,
 				763AABBF1E6961A700EF3A7F /* MementoCenter.m in Sources */,
-				763AABC31E6967EF00EF3A7F /* NSObject+MementoCenter.m in Sources */,
 				763AAB891E6960CE00EF3A7F /* main.m in Sources */,
+				76A24A51212F22700034EF14 /* NSObject+MementoCenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,6 +547,7 @@
 				763AABB31E6960CE00EF3A7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		763AABB41E6960CE00EF3A7F /* Build configuration list for PBXNativeTarget "MementoPatternTests" */ = {
 			isa = XCConfigurationList;
@@ -555,6 +556,7 @@
 				763AABB61E6960CE00EF3A7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		763AABB71E6960CE00EF3A7F /* Build configuration list for PBXNativeTarget "MementoPatternUITests" */ = {
 			isa = XCConfigurationList;
@@ -563,6 +565,7 @@
 				763AABB91E6960CE00EF3A7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
